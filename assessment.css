@@ -1,17 +1,24 @@
 body {
-  background-color: #04a6eb;
+  background: #9CECFB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #fdffff;
   width: 500px;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
+
 button {
   padding: 5px 20px;
-  background-color: #337ab7;
-  color: #fdffff;
-  border-color: #2e6da4;
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-style: none;
+  color: #fdffff;
 }
+
 input {
-  height: 20px;
+  height: 25px;
 }
